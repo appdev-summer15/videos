@@ -3,6 +3,8 @@
 <head>
   <title>BUS36110</title>
   <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/paper/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
   <nav class="navbar navbar-default">
@@ -18,15 +20,21 @@
         <a class="navbar-brand" href="/videos">BUS36110</a>
       </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li><a href="index.html">Lectures</a></li>
-          <li><a href="week_1_hw_instructions.html">Week 1 Homework Instructions</a></li>
-          <li><a href="command_line_basics.html">Command Line Basics</a></li>
-          <li><a href="irb_vs_ruby.html">IRB vs ruby</a></li>
-          <li><a href="omnicalc_ruby.html">Omnicalc Ruby</a></li>
-          <li><a href="hw4_instructions.html">HW4 Instructions</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Others <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="hw1_instructions.html">HW1 Instructions</a></li>
+              <li><a href="command_line_basics.html">Command Line Basics</a></li>
+              <li><a href="irb_vs_ruby.html">IRB vs ruby</a></li>
+              <li><a href="omnicalc_ruby.html">Omnicalc Ruby</a></li>
+              <li><a href="rails_basics.html">Rails Basics</a></li>
+              <li><a href="rcav.html">RCAV</a></li>
+            </ul>
+          </li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -41,7 +49,7 @@
             <h2 class="panel-title">Command Line Basics</h2>
           </div>
           <div class="panel-body">
-            <div class="embed-responsive embed-responsive-4by3">
+            <div class="embed-responsive embed-responsive-16by9">
               <iframe src="https://player.vimeo.com/video/132880106?byline=0&portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
           </div>
